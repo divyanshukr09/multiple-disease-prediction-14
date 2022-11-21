@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved models
-diabetes_model = pickle.load(open('C:/Users/divya/Downloads/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/divya/Downloads/diabetes_model (3).sav', 'rb'))
 
 heart_disease_model = pickle.load(open('C:/Users/divya/Downloads/heart_disease_model.sav', 'rb'))
 
